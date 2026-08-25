@@ -1,5 +1,5 @@
-postgres:16
-neo4j:5.18
-milvusdb/milvus:v2.5.14
-minio/minio:RELEASE.2023-03-20T20-16-18Z
-bitnami/etcd:3.5
+image: docker.1ms.run/postgres:16
+image: docker.1ms.run/neo4j:5.18
+image: docker.1ms.run/bitnami/etcd:3.5
+image: docker.1ms.run/minio/minio:RELEASE.2023-03-20T20-16-18Z
+image: docker.1ms.run/milvusdb/milvus:v2.5.14
